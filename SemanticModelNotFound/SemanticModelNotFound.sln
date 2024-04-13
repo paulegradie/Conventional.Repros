@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticModelNotFound", "SemanticModelNotFound\SemanticModelNotFound.csproj", "{5B86D093-0BA6-4A36-884C-FDFE4E10B27C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repo.SemanticModel", "Repo.SemanticModel", "{647265CC-E614-4992-A3DB-92848E23CDA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticModelNotFound.Tests", "SemanticModelNotFound.Tests\SemanticModelNotFound.Tests.csproj", "{71B11112-366B-4A89-AAE8-4CE942F0B900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticModelOrigin", "SemanticModelOrigin\SemanticModelOrigin.csproj", "{284A06F9-1480-438F-9CB7-ABC1ABCFCA1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B86D093-0BA6-4A36-884C-FDFE4E10B27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B86D093-0BA6-4A36-884C-FDFE4E10B27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B86D093-0BA6-4A36-884C-FDFE4E10B27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B86D093-0BA6-4A36-884C-FDFE4E10B27C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B11112-366B-4A89-AAE8-4CE942F0B900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B11112-366B-4A89-AAE8-4CE942F0B900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B11112-366B-4A89-AAE8-4CE942F0B900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B11112-366B-4A89-AAE8-4CE942F0B900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{284A06F9-1480-438F-9CB7-ABC1ABCFCA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284A06F9-1480-438F-9CB7-ABC1ABCFCA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284A06F9-1480-438F-9CB7-ABC1ABCFCA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284A06F9-1480-438F-9CB7-ABC1ABCFCA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B86D093-0BA6-4A36-884C-FDFE4E10B27C} = {647265CC-E614-4992-A3DB-92848E23CDA5}
+		{71B11112-366B-4A89-AAE8-4CE942F0B900} = {647265CC-E614-4992-A3DB-92848E23CDA5}
+		{284A06F9-1480-438F-9CB7-ABC1ABCFCA1D} = {647265CC-E614-4992-A3DB-92848E23CDA5}
+	EndGlobalSection
+EndGlobal
